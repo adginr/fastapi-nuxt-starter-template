@@ -3,7 +3,11 @@ import { ref } from "vue";
 </script>
 
 <template lang="pug">
-h1 Hello World
+ 
 </template>
 
-<style lang="scss"></style>
+<style lang="scss">
+.h1 {
+  @apply text-primary-400;
+}
+</style>
